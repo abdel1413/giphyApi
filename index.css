@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(to right, blue 10%, lightblue 90%);
+  /* background-color: black; */
 }
 
 .giphy-header {
@@ -10,7 +11,29 @@ body {
   align-items: center;
 }
 
+.giphy-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
 input {
   align-content: center;
   align-items: center;
+}
+
+.datacontent {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.imageBox {
+  border: 1px solid lightgray;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
 }

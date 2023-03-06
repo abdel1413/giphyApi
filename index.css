@@ -1,0 +1,16 @@
+body {
+  background-image: linear-gradient(to right, blue 10%, lightblue 90%);
+}
+
+.giphy-header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+
+  align-items: center;
+}
+
+input {
+  align-content: center;
+  align-items: center;
+}

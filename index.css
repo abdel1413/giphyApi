@@ -16,11 +16,10 @@ body {
   flex-wrap: wrap;
   margin: 0 auto;
 }
-.search-result{
-   display: flex;
+.search-result {
+  display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-}
 }
 
 input {
